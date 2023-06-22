@@ -69,9 +69,12 @@ let products = [
 
 ]
 
-
+ 
 function displayProducts(products) {
-for(let i of products){
+
+
+    document.getElementById("products").innerHTML = null
+    for(let i of products){
         
     // creating card
     
