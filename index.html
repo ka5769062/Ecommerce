@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="search">
+
+        <input type="search" id="box" placeholder="Search Products" >
+        <button onkeyup="search()" >Search</button>
+
+    </div>
+
+    <div class="button_main">
+
+        <button class="button-value" data-category="all" onclick="filterProduct('all')">ALL</button>
+        <button class="button-value" data-category="laptop" onclick="filterProduct('laptop')">Laptop</button>
+        <button class="button-value" data-category="watch" onclick="filterProduct('watch')">Watch</button>
+        <button class="button-value" data-category="mobile" onclick="filterProduct('mobile')">Mobile</button>
+        <button class="button-value" data-category="camera" onclick="filterProduct('camera')">Camera</button>
+
+    </div>
+
+    <div id="products">
+
+    </div>
+
+
+<button data-=""></button>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
