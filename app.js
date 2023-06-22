@@ -73,7 +73,7 @@ let products = [
 function displayProducts(products) {
 
 
-    document.getElementById("products").innerHTML = null
+    document.getElementById("products").children = null
     for(let i of products){
         
     // creating card
