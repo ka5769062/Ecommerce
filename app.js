@@ -116,5 +116,5 @@ function displayProducts(products) {
     displayProducts(filteredProducts);
 }
   
-
+alert('hello')
 
