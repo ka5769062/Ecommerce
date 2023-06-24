@@ -116,5 +116,12 @@ function displayProducts(products) {
     displayProducts(filteredProducts);
 }
   
-alert('hello')
+ // Get the category buttons and add click event listeners
+var categoryButtons = document.querySelectorAll(".button-value");
+categoryButtons.forEach(function (button) {
+  button.addEventListener("click", function () {
+    var selectedCategory = button.dataset.category;
+    filterProduct(selectedCategory);
+  });
+});
 
